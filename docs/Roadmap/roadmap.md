@@ -1,3 +1,0 @@
-# DiscoveryDEX Roadmap
-
-Roadmap
