@@ -4,18 +4,16 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'White Paper',
+    title: 'Link1',
     Svg: require('@site/static/img/logo_black.svg').default,
     description: (
       <>
         Read the White Paper.
-        Download the White Paper PDF.
-        Watch White Paper slides
       </>
     ),
   },
   {
-    title: 'Maker',
+    title: 'Link2',
     Svg: require('@site/static/img/logo_black.svg').default,
     description: (
       <>
@@ -24,7 +22,7 @@ const FeatureList = [
     ),
   },
   {
-    title: 'Taker',
+    title: 'Link3',
     Svg: require('@site/static/img/logo_black.svg').default,
     description: (
       <>

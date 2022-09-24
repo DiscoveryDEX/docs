@@ -54,7 +54,7 @@ const config = {
         title: 'DiscoveryDEX Docs',
         logo: {
           alt: 'DiscoveryDEX Logo',
-          src: 'img/logo_small.png',
+          src: 'img/logo.png',
         },
         items: [
           {
@@ -84,15 +84,23 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Tutorial',
+                label: 'White Paper',
                 to: '/docs/intro',
+              },
+              {
+                label: 'Roadmap',
+                to: '/docs/Roadmap',
+              },
+              {
+                label: 'How it works',
+                to: '/docs/how-it-works',
               },
             ],
           },
           {
             title: 'Community',
             items: [
-               {
+                {
                 label: 'Discord',
                 href: 'https://discord.gg/Pbrg5vkQJC',
               },
@@ -100,23 +108,24 @@ const config = {
                 label: 'Twitter',
                 href: 'https://twitter.com/DiscoveryDEX',
               },
+              {
+                label: 'Telegram',
+                href: 'https://t.me/DiscoveryDEX',
+              },
             ],
           },
           {
-            title: 'More',
+            title: 'Development',
             items: [
-              {
-                label: 'Docs',
-                to: '/docs',
-              },
+
               {
                 label: 'GitHub',
-                href: 'https://github.com/DiscoveryDEX',
+                href: 'https://github.com/DiscovertDEX',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} DiscoveryDEX, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} DiscoveryDEX. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,

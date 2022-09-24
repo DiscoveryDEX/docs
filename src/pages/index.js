@@ -18,8 +18,8 @@ function HomepageHeader() {
           <Link
             className="button button--secondary button--lg"
             to="/docs/white-paper">
-            Read the White Paper
-          </Link>
+            Download the White Paper in PDF
+        </Link>
         </div>
       </div>
     </header>
